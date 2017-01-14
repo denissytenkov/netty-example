@@ -10,7 +10,8 @@ repositories {
 
 dependencies {
     compile (    		 	
-    	'io.netty:netty-all:4.1.7.Final'
+    	    'io.netty:netty-all:4.1.7.Final',
+            'com.fasterxml.jackson.core:jackson-databind:2.8.6'
     )
     testCompile group: 'junit', name: 'junit', version: '4.11'
 }
